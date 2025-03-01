@@ -1,0 +1,24 @@
+@import '../../style/home.style.scss';
+.noty-container {
+  background-color: $lightbg;
+  border-radius: 8px;
+  padding: 8px;
+  color: $text;
+}
+.noty-title {
+  font-size: 24px;
+}
+.noty-card {
+  display: flex;
+  flex-direction: column;
+  // align-items: end;
+  margin-bottom: 8px;
+}
+.noty-cards {
+  display: flex;
+  flex-direction: column;
+  // margin-bottom: 8px;
+}
+.noty-card-text {
+  font-size: 12px;
+}

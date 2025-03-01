@@ -1,0 +1,10 @@
+@import '../../style/home.style.scss';
+.noty-container {
+  background-color: $lightbg;
+  border-radius: 8px;
+  padding: 8px;
+  color: $text;
+}
+.noty-title {
+  font-size: 24px;
+}
