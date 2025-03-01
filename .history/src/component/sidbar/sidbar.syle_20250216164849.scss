@@ -1,0 +1,46 @@
+@import '../../style/home.style.scss';
+.sidbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; // Ensure the container has full width
+  // overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  // overflow: hidden;
+  // Ensure the nav container takes full width
+}
+
+a {
+  padding: 0;
+  color: $text;
+  margin: 8px 0;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  width: 100%; // Make sure the <a> tag takes full width of its container
+  height: 50px;
+  padding-left: 8px; // Ensures text doesn't touch the edge
+}
+
+.active {
+  color: $pink;
+  background-color: $pinkBg;
+  border-radius: 8px;
+  width: 100%; // Ensure the active link takes full width
+  padding-left: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

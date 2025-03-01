@@ -1,0 +1,34 @@
+@import '../../style/home.style.scss';
+.post {
+  background: $lightbg;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 16px;
+  // width: 100%;
+}
+.post-txt {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.txt {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  width: 100%; /* Ensure it fills the parent */
+  max-width: 100%; /* Prevents overflow */
+  display: block; /* Ensures proper text wrapping */
+}
+
+.btn-text {
+  border: none;
+  background: none;
+}
+img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}

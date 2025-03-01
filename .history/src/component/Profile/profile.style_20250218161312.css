@@ -1,0 +1,12 @@
+.proImg {
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 16px;
+}
+
+.profileContainer {
+  display: flex;
+}/*# sourceMappingURL=profile.style_20250218161312.css.map */

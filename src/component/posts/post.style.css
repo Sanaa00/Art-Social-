@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  height: 100vh;
+  font-family: "Andika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sidbarContainer {
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.otletWidth {
+  height: 100vh;
+  width: 80%;
+}
+
+.post {
+  background: #fbfbfb;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 16px;
+}
+
+.post-txt {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.txt {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  width: 100%; /* Ensure it fills the parent */
+  max-width: 100%; /* Prevents overflow */
+  display: block; /* Ensures proper text wrapping */
+}
+
+.btn-text {
+  border: none;
+  background: none;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+}
+
+.bottom-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heart {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=post.style.css.map */

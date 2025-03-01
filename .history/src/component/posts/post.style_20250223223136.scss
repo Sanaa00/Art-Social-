@@ -1,0 +1,23 @@
+@import '../../style/home.style.scss';
+.post {
+  background: $lightbg;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 16px;
+  // width: 100%;
+}
+.post-txt {
+  // max-height: fit-content;
+  // width: 100%;
+  //   he
+  display: flex;
+  // justify-content: safe;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.btn-text {
+  border: none;
+  background: none;
+}

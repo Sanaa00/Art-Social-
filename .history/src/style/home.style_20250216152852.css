@@ -1,0 +1,22 @@
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  height: 100vh;
+}
+
+.sidbarContainer {
+  width: 30% !important;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.otletWidth {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+}/*# sourceMappingURL=home.style_20250216152852.css.map */

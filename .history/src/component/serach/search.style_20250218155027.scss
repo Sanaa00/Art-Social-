@@ -1,0 +1,16 @@
+@import '../../style/home.style.scss';
+.search {
+  outline: none;
+  border-radius: 4px;
+  border-color: $lightGrey;
+  border-width: 1px;
+  height: 36px;
+  padding-x: 4px;
+
+  &:active {
+    outline: none;
+  }
+  &:hover {
+    outline: none;
+  }
+}

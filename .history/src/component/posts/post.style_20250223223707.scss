@@ -1,0 +1,31 @@
+@import '../../style/home.style.scss';
+.post {
+  background: $lightbg;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 16px;
+  // width: 100%;
+}
+.post-txt {
+  // max-height: fit-content;
+  width: fit-content;
+  //   he
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  // justify-content: safe;
+}
+
+.txt {
+  display: flex;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-overflow: ellipsis;
+  white-space: normal;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+.btn-text {
+  border: none;
+  background: none;
+}

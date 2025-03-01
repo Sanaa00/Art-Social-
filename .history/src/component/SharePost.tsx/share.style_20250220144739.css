@@ -1,0 +1,39 @@
+.img-container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  inset: 0;
+}
+
+.img-icon {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img-upload-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-input {
+  outline: none;
+}
+.post-input:hover {
+  outline: none;
+}/*# sourceMappingURL=share.style_20250220144739.css.map */

@@ -1,0 +1,50 @@
+// relative w-24 h-24 flex items-center justify-center border rounded-full cursor-pointer overflow-hidden"
+.img-container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  cursor: pointer;
+  overflow: hidden;
+}
+// absolute inset-0 opacity-0 cursor-pointer
+
+.img {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  inset: 0;
+}
+.img-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.img-upload-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-input {
+  outline: none;
+  border: none;
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+  height: auto;
+  &:hover {
+    outline: none;
+  }
+  &:active {
+    outline: none;
+  }
+}
+.primary-btn {
+  //   padding-left: 16px;/
+  //   padding-right: 16px;
+  padding: 8px 32px;
+}

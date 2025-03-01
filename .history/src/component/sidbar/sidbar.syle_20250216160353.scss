@@ -1,0 +1,9 @@
+@import '../../style/home.style.scss';
+.sidbarContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.active {
+  color: $pink;
+}

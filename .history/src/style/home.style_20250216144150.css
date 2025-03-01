@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100;
+}
+
+.otletWidth {
+  width: 70%;
+}/*# sourceMappingURL=home.style_20250216144150.css.map */

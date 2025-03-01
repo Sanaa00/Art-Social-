@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sidbarContainer {
+  width: 30%;
+}
+
+.otletWidth {
+  width: 70%;
+}/*# sourceMappingURL=home.style_20250216153027.css.map */

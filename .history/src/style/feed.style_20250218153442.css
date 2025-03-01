@@ -1,0 +1,18 @@
+.feed {
+  display: flex;
+  padding: 24px;
+  flex-direction: columns;
+}
+
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=feed.style_20250218153442.css.map */

@@ -1,0 +1,9 @@
+@import '../../style/home.style.scss';
+.post {
+  background: $lightbg;
+  border-radius: 4px;
+  padding: 4px;
+}
+.post-txt {
+  max-height: 32px;
+}

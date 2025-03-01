@@ -1,0 +1,38 @@
+@import '../../style/home.style.scss';
+.sidbarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; // Ensure the container has full width
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%; // Ensure the nav container takes full width
+}
+.active {
+  color: $pink;
+  background-color: $pinkBg;
+  border-radius: 8px;
+  width: 200px;
+
+  padding-left: 8px;
+}
+a {
+  padding: 0 0px;
+  color: $text;
+  margin: 8px 0;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%; // Ensure full width
+  height: 50px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}

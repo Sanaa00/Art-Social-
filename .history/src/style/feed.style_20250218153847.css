@@ -1,0 +1,30 @@
+.feed {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+}
+
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.feedContent .postSection {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.feedContent .notificationSection {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}/*# sourceMappingURL=feed.style_20250218153847.css.map */
